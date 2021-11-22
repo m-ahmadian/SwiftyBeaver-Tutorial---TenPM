@@ -38,6 +38,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func setupSwiftyBeaverLogging() {
         let console = ConsoleDestination()
         SwiftyBeaver.addDestination(console)
+
+        let platform = SBPlatformDestination(appID: "Wxjbmo", appSecret: "9Masay7twlSfn7afzhzcdNcdwxIvze7A", encryptionKey: "np4nodvgvzrzq0oksroytszukmhqAsac")
+        SwiftyBeaver.addDestination(platform)
     }
 }
 
