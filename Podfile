@@ -6,5 +6,6 @@ target 'TenPM' do
   use_frameworks!
 
   # Pods for TenPM
+  pod 'SwiftyBeaver'
 
 end
