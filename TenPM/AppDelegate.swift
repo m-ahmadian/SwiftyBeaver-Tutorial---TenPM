@@ -30,8 +30,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
   
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         setupSwiftyBeaverLogging()
-        SwiftyBeaver.info("Hello SwiftyBeaver Logging!")
-        SwiftyBeaver.debug("Look ma! I am logging to the DEBUG level.")
+        SwiftyBeaver.verbose("Watch me bloviate. I'm definitely not important enough for the cloud")
+        SwiftyBeaver.debug("I am more important, but the cloud still doesn't care.")
+        SwiftyBeaver.info("Why doesn't the crypto cloud love me?")
+        SwiftyBeaver.warning("I am serious enough for you to see!")
+        SwiftyBeaver.error("Of course I'm going to show up in your console. You need to handle this")
         return true
   }
 
@@ -40,6 +43,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         SwiftyBeaver.addDestination(console)
 
         let platform = SBPlatformDestination(appID: "Wxjbmo", appSecret: "9Masay7twlSfn7afzhzcdNcdwxIvze7A", encryptionKey: "np4nodvgvzrzq0oksroytszukmhqAsac")
+        platform.minLevel = .warning
         SwiftyBeaver.addDestination(platform)
     }
 }
