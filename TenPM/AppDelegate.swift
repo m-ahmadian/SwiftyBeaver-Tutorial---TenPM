@@ -31,6 +31,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         setupSwiftyBeaverLogging()
         SwiftyBeaver.info("Hello SwiftyBeaver Logging!")
+        SwiftyBeaver.debug("Look ma! I am logging to the DEBUG level.")
         return true
   }
 
