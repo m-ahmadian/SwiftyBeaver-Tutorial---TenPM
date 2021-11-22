@@ -7,35 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		062BAAE3D416376BE84544B6 /* Pods_TenPM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10CE11FE1DA8C00AB2F1045B /* Pods_TenPM.framework */; };
+		9F05BD891E1EEA88000AF829 /* LocationTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F05BD881E1EEA88000AF829 /* LocationTracker.swift */; };
+		9FD6AFA31E2702990007D801 /* ParentProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD6AFA21E2702990007D801 /* ParentProfile.swift */; };
+		9FD6AFA51E2728960007D801 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FD6AFA41E2728960007D801 /* MapKit.framework */; };
+		9FD6AFA71E272B160007D801 /* TrackingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD6AFA61E272B160007D801 /* TrackingViewController.swift */; };
 		9FF20F961E1EBCE6008D868E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF20F951E1EBCE6008D868E /* AppDelegate.swift */; };
-		9FF20F981E1EBCE6008D868E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF20F971E1EBCE6008D868E /* ViewController.swift */; };
+		9FF20F981E1EBCE6008D868E /* TrackingSetupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF20F971E1EBCE6008D868E /* TrackingSetupViewController.swift */; };
 		9FF20F9B1E1EBCE6008D868E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FF20F991E1EBCE6008D868E /* Main.storyboard */; };
 		9FF20F9D1E1EBCE6008D868E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FF20F9C1E1EBCE6008D868E /* Assets.xcassets */; };
 		9FF20FA01E1EBCE6008D868E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FF20F9E1E1EBCE6008D868E /* LaunchScreen.storyboard */; };
-		9FF20FAB1E1EBCE6008D868E /* TenPMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF20FAA1E1EBCE6008D868E /* TenPMTests.swift */; };
+		9FF20FB71E1EBD1F008D868E /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FF20FB61E1EBD1F008D868E /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		9FF20FA71E1EBCE6008D868E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 9FF20F8A1E1EBCE6008D868E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9FF20F911E1EBCE6008D868E;
-			remoteInfo = TenPM;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		10CE11FE1DA8C00AB2F1045B /* Pods_TenPM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TenPM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		39F16948EB8948A369ACEB6B /* Pods-TenPM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TenPM.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TenPM/Pods-TenPM.debug.xcconfig"; sourceTree = "<group>"; };
+		5D345E85D1C9E5D111B9F108 /* Pods-TenPMTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TenPMTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TenPMTests/Pods-TenPMTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9F05BD881E1EEA88000AF829 /* LocationTracker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationTracker.swift; sourceTree = "<group>"; };
+		9FD6AFA21E2702990007D801 /* ParentProfile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParentProfile.swift; sourceTree = "<group>"; };
+		9FD6AFA41E2728960007D801 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		9FD6AFA61E272B160007D801 /* TrackingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackingViewController.swift; sourceTree = "<group>"; };
 		9FF20F921E1EBCE6008D868E /* TenPM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TenPM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FF20F951E1EBCE6008D868E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9FF20F971E1EBCE6008D868E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9FF20F971E1EBCE6008D868E /* TrackingSetupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackingSetupViewController.swift; sourceTree = "<group>"; };
 		9FF20F9A1E1EBCE6008D868E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9FF20F9C1E1EBCE6008D868E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9FF20F9F1E1EBCE6008D868E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9FF20FA11E1EBCE6008D868E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9FF20FA61E1EBCE6008D868E /* TenPMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TenPMTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9FF20FAA1E1EBCE6008D868E /* TenPMTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TenPMTests.swift; sourceTree = "<group>"; };
-		9FF20FAC1E1EBCE6008D868E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FF20FB61E1EBD1F008D868E /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		B8DBCE3FC3C7C081CCD8F96F /* Pods_TenPMTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TenPMTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E65D048555FF3C4CD6FEB707 /* Pods-TenPMTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TenPMTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TenPMTests/Pods-TenPMTests.release.xcconfig"; sourceTree = "<group>"; };
+		F677EE776E05070C3B46A63A /* Pods-TenPM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TenPM.release.xcconfig"; path = "Pods/Target Support Files/Pods-TenPM/Pods-TenPM.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,13 +46,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9FF20FA31E1EBCE6008D868E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				9FD6AFA51E2728960007D801 /* MapKit.framework in Frameworks */,
+				9FF20FB71E1EBD1F008D868E /* CoreLocation.framework in Frameworks */,
+				062BAAE3D416376BE84544B6 /* Pods_TenPM.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,8 +59,9 @@
 			isa = PBXGroup;
 			children = (
 				9FF20F941E1EBCE6008D868E /* TenPM */,
-				9FF20FA91E1EBCE6008D868E /* TenPMTests */,
 				9FF20F931E1EBCE6008D868E /* Products */,
+				9FF20FB51E1EBD1F008D868E /* Frameworks */,
+				D3D3114949D49D7FE3C10039 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -69,7 +69,6 @@
 			isa = PBXGroup;
 			children = (
 				9FF20F921E1EBCE6008D868E /* TenPM.app */,
-				9FF20FA61E1EBCE6008D868E /* TenPMTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -78,7 +77,10 @@
 			isa = PBXGroup;
 			children = (
 				9FF20F951E1EBCE6008D868E /* AppDelegate.swift */,
-				9FF20F971E1EBCE6008D868E /* ViewController.swift */,
+				9FF20F971E1EBCE6008D868E /* TrackingSetupViewController.swift */,
+				9FD6AFA61E272B160007D801 /* TrackingViewController.swift */,
+				9F05BD881E1EEA88000AF829 /* LocationTracker.swift */,
+				9FD6AFA21E2702990007D801 /* ParentProfile.swift */,
 				9FF20F991E1EBCE6008D868E /* Main.storyboard */,
 				9FF20F9C1E1EBCE6008D868E /* Assets.xcassets */,
 				9FF20F9E1E1EBCE6008D868E /* LaunchScreen.storyboard */,
@@ -87,13 +89,26 @@
 			path = TenPM;
 			sourceTree = "<group>";
 		};
-		9FF20FA91E1EBCE6008D868E /* TenPMTests */ = {
+		9FF20FB51E1EBD1F008D868E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				9FF20FAA1E1EBCE6008D868E /* TenPMTests.swift */,
-				9FF20FAC1E1EBCE6008D868E /* Info.plist */,
+				9FD6AFA41E2728960007D801 /* MapKit.framework */,
+				9FF20FB61E1EBD1F008D868E /* CoreLocation.framework */,
+				10CE11FE1DA8C00AB2F1045B /* Pods_TenPM.framework */,
+				B8DBCE3FC3C7C081CCD8F96F /* Pods_TenPMTests.framework */,
 			);
-			path = TenPMTests;
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D3D3114949D49D7FE3C10039 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				39F16948EB8948A369ACEB6B /* Pods-TenPM.debug.xcconfig */,
+				F677EE776E05070C3B46A63A /* Pods-TenPM.release.xcconfig */,
+				5D345E85D1C9E5D111B9F108 /* Pods-TenPMTests.debug.xcconfig */,
+				E65D048555FF3C4CD6FEB707 /* Pods-TenPMTests.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -103,9 +118,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9FF20FAF1E1EBCE6008D868E /* Build configuration list for PBXNativeTarget "TenPM" */;
 			buildPhases = (
+				CE44D7A91355C437140EB9E2 /* [CP] Check Pods Manifest.lock */,
 				9FF20F8E1E1EBCE6008D868E /* Sources */,
 				9FF20F8F1E1EBCE6008D868E /* Frameworks */,
 				9FF20F901E1EBCE6008D868E /* Resources */,
+				967557CA1E7D78AF39C3BAD0 /* [CP] Embed Pods Frameworks */,
+				FBAAB05876F6EBAFDA5CD505 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -115,24 +133,6 @@
 			productName = TenPM;
 			productReference = 9FF20F921E1EBCE6008D868E /* TenPM.app */;
 			productType = "com.apple.product-type.application";
-		};
-		9FF20FA51E1EBCE6008D868E /* TenPMTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 9FF20FB21E1EBCE6008D868E /* Build configuration list for PBXNativeTarget "TenPMTests" */;
-			buildPhases = (
-				9FF20FA21E1EBCE6008D868E /* Sources */,
-				9FF20FA31E1EBCE6008D868E /* Frameworks */,
-				9FF20FA41E1EBCE6008D868E /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				9FF20FA81E1EBCE6008D868E /* PBXTargetDependency */,
-			);
-			name = TenPMTests;
-			productName = TenPMTests;
-			productReference = 9FF20FA61E1EBCE6008D868E /* TenPMTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -145,14 +145,12 @@
 				TargetAttributes = {
 					9FF20F911E1EBCE6008D868E = {
 						CreatedOnToolsVersion = 8.2;
-						DevelopmentTeam = X3726DR82N;
 						ProvisioningStyle = Automatic;
-					};
-					9FF20FA51E1EBCE6008D868E = {
-						CreatedOnToolsVersion = 8.2;
-						DevelopmentTeam = X3726DR82N;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 9FF20F911E1EBCE6008D868E;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -161,6 +159,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -170,7 +169,6 @@
 			projectRoot = "";
 			targets = (
 				9FF20F911E1EBCE6008D868E /* TenPM */,
-				9FF20FA51E1EBCE6008D868E /* TenPMTests */,
 			);
 		};
 /* End PBXProject section */
@@ -186,42 +184,70 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9FF20FA41E1EBCE6008D868E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		967557CA1E7D78AF39C3BAD0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
 			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TenPM/Pods-TenPM-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
 		};
-/* End PBXResourcesBuildPhase section */
+		CE44D7A91355C437140EB9E2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FBAAB05876F6EBAFDA5CD505 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TenPM/Pods-TenPM-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9FF20F8E1E1EBCE6008D868E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9FF20F981E1EBCE6008D868E /* ViewController.swift in Sources */,
+				9FF20F981E1EBCE6008D868E /* TrackingSetupViewController.swift in Sources */,
 				9FF20F961E1EBCE6008D868E /* AppDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9FF20FA21E1EBCE6008D868E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9FF20FAB1E1EBCE6008D868E /* TenPMTests.swift in Sources */,
+				9FD6AFA71E272B160007D801 /* TrackingViewController.swift in Sources */,
+				9FD6AFA31E2702990007D801 /* ParentProfile.swift in Sources */,
+				9F05BD891E1EEA88000AF829 /* LocationTracker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		9FF20FA81E1EBCE6008D868E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 9FF20F911E1EBCE6008D868E /* TenPM */;
-			targetProxy = 9FF20FA71E1EBCE6008D868E /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		9FF20F991E1EBCE6008D868E /* Main.storyboard */ = {
@@ -336,57 +362,29 @@
 		};
 		9FF20FB01E1EBCE6008D868E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39F16948EB8948A369ACEB6B /* Pods-TenPM.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = X3726DR82N;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = TenPM/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.tedbendixson.TenPM;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Razeware.TenPM;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
 		9FF20FB11E1EBCE6008D868E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F677EE776E05070C3B46A63A /* Pods-TenPM.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = X3726DR82N;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = TenPM/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.tedbendixson.TenPM;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Razeware.TenPM;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-			};
-			name = Release;
-		};
-		9FF20FB31E1EBCE6008D868E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = X3726DR82N;
-				INFOPLIST_FILE = TenPMTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.tedbendixson.TenPMTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TenPM.app/TenPM";
-			};
-			name = Debug;
-		};
-		9FF20FB41E1EBCE6008D868E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = X3726DR82N;
-				INFOPLIST_FILE = TenPMTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.tedbendixson.TenPMTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TenPM.app/TenPM";
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};
@@ -409,14 +407,7 @@
 				9FF20FB11E1EBCE6008D868E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		9FF20FB21E1EBCE6008D868E /* Build configuration list for PBXNativeTarget "TenPMTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9FF20FB31E1EBCE6008D868E /* Debug */,
-				9FF20FB41E1EBCE6008D868E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
