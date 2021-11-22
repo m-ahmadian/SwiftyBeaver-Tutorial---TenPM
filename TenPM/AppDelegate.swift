@@ -29,12 +29,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
   var window: UIWindow?
   
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-    setupSwiftyBeaverLogging()
-    return true
+        setupSwiftyBeaverLogging()
+        SwiftyBeaver.info("Hello SwiftyBeaver Logging!")
+        return true
   }
-  
-  func setupSwiftyBeaverLogging() {
-    
-  }
+
+    func setupSwiftyBeaverLogging() {
+        let console = ConsoleDestination()
+        SwiftyBeaver.addDestination(console)
+    }
 }
 
